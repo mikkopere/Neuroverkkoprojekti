@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="keras-cpu" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="tensorflow" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="pytorch" project-jdk-type="Python SDK" />
 </project>
