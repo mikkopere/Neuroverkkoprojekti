@@ -1,3 +1,6 @@
 .idea/
 .DS_Store
 dogs-vs-cats_small/
+*.keras
+*.h5
+.ipynb_checkpoints/
