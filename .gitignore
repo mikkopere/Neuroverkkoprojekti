@@ -5,4 +5,9 @@ dogs-vs-cats_small/
 *.h5
 .ipynb_checkpoints/
 kalevala_sp.*
+<<<<<<< HEAD
 *.txt
+=======
+*.txtMNIST/
+mnist_data/
+>>>>>>> refs/remotes/origin/main
