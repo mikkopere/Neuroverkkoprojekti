@@ -8,4 +8,4 @@ kalevala_sp.*
 *.txt
 mnist_data/
 *.wav
-
+.gradio/
