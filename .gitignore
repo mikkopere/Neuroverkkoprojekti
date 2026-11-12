@@ -7,4 +7,5 @@ dogs-vs-cats_small/
 kalevala_sp.*
 *.txt
 mnist_data/
+*.wav
 
