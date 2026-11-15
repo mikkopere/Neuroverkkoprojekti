@@ -10,6 +10,7 @@ networks, transfer learning, transformers and language models, and speech recogn
 ├── mnist/                     MNIST in NumPy, PyTorch and Keras
 ├── pytorch/                   the same MNIST models in Keras and in pure PyTorch
 ├── vision-transfer-learning/  CNN from scratch, VGG16 feature extraction and fine-tuning
+├── image-restoration/         repairing damaged images with an autoencoder and a U-Net
 ├── llm/                       transformer from scratch (Kalevala), Gemma fine-tuning
 ├── speech/                    speech recognition with Whisper
 ├── demos/                     convolution, Fourier transform, gradient descent
@@ -42,6 +43,9 @@ Image classification on dogs vs. cats.
 - `Dogs_vs_Cats_Keras.ipynb` — a CNN trained from scratch, with data augmentation.
 - `Feature_Extraction_VGG16.ipynb` — a frozen pretrained VGG16 as a feature extractor.
 - `Fine-tuned_VGG16.ipynb` — fine-tuning the top layers of VGG16.
+
+### `image-restoration/`
+- `Image_Restoration.ipynb` — CIFAR-10 images are damaged on purpose (noise, a missing square or half resolution), and a network learns to restore the original. Compares a plain autoencoder with a U-Net and measures the result in PSNR against the damaged input.
 
 ### `llm/`
 - `LLM_Keras_Kalevala_pieni.ipynb` — a small transformer trained from scratch on the Kalevala (Keras 3, SentencePiece tokenizer). The starting point for project 3.
